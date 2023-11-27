@@ -2,7 +2,7 @@ import openpyxl
 
 # import json
 
-wb = openpyxl.load_workbook('./kakaka.xlsx')
+wb = openpyxl.load_workbook('kakaka.xlsx')
 
 
 class ClsApp:
