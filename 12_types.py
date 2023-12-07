@@ -1,7 +1,16 @@
-s = "fadfadfadf"
-print(len(s))
+# s = "fadfadfadf"
+# print(len(s))
+#
+# print(s[0])
+#
+# print(type(s))
 
-print(s[0])
+# family = ["jzj", "lzh", "jbw"]
+family = {}
 
-print(type(s))
+family["jzj"] = 1
+family["lzh"] = 2
+family["jbw"] = 3
 
+for person in family.values():
+    print(person)
